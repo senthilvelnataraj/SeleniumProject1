@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="71772" started-at="2023-05-29T19:42:58 IST" finished-at="2023-05-29T19:44:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="71772" started-at="2023-05-29T19:42:58 IST" finished-at="2023-05-29T19:44:10 IST">
+      <class name="testNG.OpenGoogletestNG">
+        <test-method status="PASS" signature="secondtestcase()[pri:0, instance:testNG.OpenGoogletestNG@1b68ddbd]" name="secondtestcase" duration-ms="12956" started-at="2023-05-29T19:42:58 IST" finished-at="2023-05-29T19:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method status="PASS" signature="thirdtestcase()[pri:0, instance:testNG.OpenGoogletestNG@1b68ddbd]" name="thirdtestcase" duration-ms="8534" started-at="2023-05-29T19:43:11 IST" depends-on-methods="testNG.OpenGoogletestNG.secondtestcase" finished-at="2023-05-29T19:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdtestcase -->
+        <test-method status="PASS" signature="firsttestcase()[pri:1, instance:testNG.OpenGoogletestNG@1b68ddbd]" name="firsttestcase" duration-ms="10852" started-at="2023-05-29T19:43:20 IST" finished-at="2023-05-29T19:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttestcase -->
+      </class> <!-- testNG.OpenGoogletestNG -->
+      <class name="testNG.TestNGAnnotation">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testNG.TestNGAnnotation@436e852b]" name="openbrowser" is-config="true" duration-ms="4996" started-at="2023-05-29T19:42:53 IST" finished-at="2023-05-29T19:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="firsttestcase()[pri:0, instance:testNG.TestNGAnnotation@436e852b]" name="firsttestcase" duration-ms="7151" started-at="2023-05-29T19:43:31 IST" finished-at="2023-05-29T19:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttestcase -->
+        <test-method status="PASS" signature="secondtestcase()[pri:1, instance:testNG.TestNGAnnotation@436e852b]" name="secondtestcase" duration-ms="30841" started-at="2023-05-29T19:43:38 IST" finished-at="2023-05-29T19:44:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method status="PASS" signature="thirdtestcase()[pri:2, instance:testNG.TestNGAnnotation@436e852b]" name="thirdtestcase" duration-ms="1358" started-at="2023-05-29T19:44:09 IST" finished-at="2023-05-29T19:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdtestcase -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testNG.TestNGAnnotation@436e852b]" name="closebrowser" is-config="true" duration-ms="906" started-at="2023-05-29T19:44:10 IST" finished-at="2023-05-29T19:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testNG.TestNGAnnotation -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
